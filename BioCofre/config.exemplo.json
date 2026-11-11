@@ -1,0 +1,50 @@
+{
+  "camera_indice": 0,
+  "largura": 640,
+  "altura": 480,
+  "espelhar": true,
+  "gauss_kernel": 3,
+  "clahe_clip": 2.0,
+  "clahe_grade": 8,
+  "equalizar_caracteristicas": false,
+  "haar_escala": 1.1,
+  "haar_vizinhos": 5,
+  "face_min_px": 80,
+  "tam_face": 100,
+  "margem_face": 0.2,
+  "mascara_eliptica": true,
+  "mascara_rx": 0.4,
+  "mascara_ry": 0.5,
+  "lbp_grade": 8,
+  "limiar": {
+    "1": 0.422,
+    "2": 0.396,
+    "3": 0.386
+  },
+  "razao_max": 0.9,
+  "quadros_confirmacao": {
+    "1": 3,
+    "2": 5,
+    "3": 8
+  },
+  "pin_obrigatorio": {
+    "1": false,
+    "2": false,
+    "3": true
+  },
+  "quadros_negacao": 15,
+  "tempo_max_analise_s": 10.0,
+  "max_falhas": 3,
+  "bloqueio_s": 60,
+  "resultado_exibido_s": 4.0,
+  "pin_tentativas": 3,
+  "pin_prazo_s": 30.0,
+  "sem_rosto_reinicia_s": 2.0,
+  "rearme_sem_rosto_s": 1.5,
+  "amostras_cadastro": 15,
+  "nitidez_min": 40.0,
+  "brilho_min": 50.0,
+  "brilho_max": 210.0,
+  "contraste_min": 25.0,
+  "pasta_dados": "dados"
+}
